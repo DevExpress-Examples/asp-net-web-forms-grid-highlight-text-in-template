@@ -13,6 +13,8 @@ Search results contained in templates are not highlighted. This example demonstr
 
 ![](grid-with-highlight-in-template.png)
 
+## Implementation Details
+
 In this example, [DataItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.DataItemTemplate) contains the [ASPxLabel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxLabel) control. 
 
 ```aspx
