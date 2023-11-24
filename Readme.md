@@ -25,7 +25,7 @@ In this example, [DataItemTemplate](https://docs.devexpress.com/AspNet/DevExpres
 </dx:GridViewDataTextColumn>
 ```
 
-The `ASPxLabel.DataBound` event handler looking for the search text and wraps the found text with the `<span>` tag with the `dxgvHL` CSS class specified.
+The `ASPxLabel.DataBound` event handler looks for the search text and applies the `dxgvHL` CSS class to the found text.
 
 ```csharp
 protected void label_DataBound(object sender, EventArgs e) {
